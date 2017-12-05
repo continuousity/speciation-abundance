@@ -1,0 +1,19 @@
+---
+title: "On the relationship between abundance and speciation"
+author: "The continuousity group"
+date: "`r format(Sys.time(), '%B %d %Y')`"
+output: pdf_document
+bibliography: speciation-abundance.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Do common or rare species speciate more?  Common species may have more immigration which could dampen speciation and thus rare species would tend to speciate relatively more.  Conversely, common species should persist better and thus be able to wait longer for speciation events.  Therefore there could be multiple "sweet spots" for speciation leading to a mix in communities of clades that spin off of dominant taxa and those that diverge from and into many rare lineages.
+
+Such a model contradicts evolution in neutral biodiversity theories which predict a simple positive relationship between abundance and speciation due to the point mutation nature of speciation, even in protracted models.
+
+After building a simple(ish) model of this process to verify this verbal hypothesis we could map potential speciation "sweet spots" onto real organism traits like body size, dispersal ability and range size, all of which are probably related. We could also analyze abundance and richness data to look for signals of a relationship between clade size and abundance.  Interestingly, a positive relationship between abundance and clade size is predicted by a maximum entropy theory of higher taxa macroecology [@harte2015], which could be used as a null against which to compare observed correlations between clade richness and abundance.
+
+## References
